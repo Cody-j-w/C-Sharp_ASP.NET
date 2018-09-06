@@ -1,0 +1,11 @@
+C:\Users\Cody James\Documents\C#\ASP.NET\RazorFun\bin\Debug\netcoreapp2.0\RazorFun.deps.json
+C:\Users\Cody James\Documents\C#\ASP.NET\RazorFun\bin\Debug\netcoreapp2.0\RazorFun.runtimeconfig.json
+C:\Users\Cody James\Documents\C#\ASP.NET\RazorFun\bin\Debug\netcoreapp2.0\RazorFun.runtimeconfig.dev.json
+C:\Users\Cody James\Documents\C#\ASP.NET\RazorFun\bin\Debug\netcoreapp2.0\RazorFun.dll
+C:\Users\Cody James\Documents\C#\ASP.NET\RazorFun\bin\Debug\netcoreapp2.0\RazorFun.pdb
+C:\Users\Cody James\Documents\C#\ASP.NET\RazorFun\obj\Debug\netcoreapp2.0\RazorFun.csprojResolveAssemblyReference.cache
+C:\Users\Cody James\Documents\C#\ASP.NET\RazorFun\obj\Debug\netcoreapp2.0\RazorFun.csproj.CoreCompileInputs.cache
+C:\Users\Cody James\Documents\C#\ASP.NET\RazorFun\obj\Debug\netcoreapp2.0\RazorFun.AssemblyInfoInputs.cache
+C:\Users\Cody James\Documents\C#\ASP.NET\RazorFun\obj\Debug\netcoreapp2.0\RazorFun.AssemblyInfo.cs
+C:\Users\Cody James\Documents\C#\ASP.NET\RazorFun\obj\Debug\netcoreapp2.0\RazorFun.dll
+C:\Users\Cody James\Documents\C#\ASP.NET\RazorFun\obj\Debug\netcoreapp2.0\RazorFun.pdb

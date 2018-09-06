@@ -1,0 +1,11 @@
+C:\Users\Cody James\Documents\C#\ASP.NET\Portfolio\bin\Debug\netcoreapp2.0\Portfolio.deps.json
+C:\Users\Cody James\Documents\C#\ASP.NET\Portfolio\bin\Debug\netcoreapp2.0\Portfolio.runtimeconfig.json
+C:\Users\Cody James\Documents\C#\ASP.NET\Portfolio\bin\Debug\netcoreapp2.0\Portfolio.runtimeconfig.dev.json
+C:\Users\Cody James\Documents\C#\ASP.NET\Portfolio\bin\Debug\netcoreapp2.0\Portfolio.dll
+C:\Users\Cody James\Documents\C#\ASP.NET\Portfolio\bin\Debug\netcoreapp2.0\Portfolio.pdb
+C:\Users\Cody James\Documents\C#\ASP.NET\Portfolio\obj\Debug\netcoreapp2.0\Portfolio.csproj.CoreCompileInputs.cache
+C:\Users\Cody James\Documents\C#\ASP.NET\Portfolio\obj\Debug\netcoreapp2.0\Portfolio.AssemblyInfoInputs.cache
+C:\Users\Cody James\Documents\C#\ASP.NET\Portfolio\obj\Debug\netcoreapp2.0\Portfolio.AssemblyInfo.cs
+C:\Users\Cody James\Documents\C#\ASP.NET\Portfolio\obj\Debug\netcoreapp2.0\Portfolio.dll
+C:\Users\Cody James\Documents\C#\ASP.NET\Portfolio\obj\Debug\netcoreapp2.0\Portfolio.pdb
+C:\Users\Cody James\Documents\C#\ASP.NET\Portfolio\obj\Debug\netcoreapp2.0\Portfolio.csprojResolveAssemblyReference.cache

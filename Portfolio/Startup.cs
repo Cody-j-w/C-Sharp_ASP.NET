@@ -22,16 +22,13 @@ namespace Portfolio
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
 
-            app.UseMvc();
+            
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
-
-            app.Run(async (context) =>
-            {
-                await context.Response.WriteAsync("Hello World!");
-            });
+            app.UseStaticFiles();
+            app.UseMvc();
         }
 
         public Startup(IHostingEnvironment env)

@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
 
 namespace Portfolio.Controllers
 {
@@ -6,24 +7,24 @@ namespace Portfolio.Controllers
     {
         [HttpGet]
         [Route("")]
-        public string Index()
+        public IActionResult Index()
         {
-            return $"This is my Index!";
+            return View();
         }
 
         
         [Route("projects")]
 
-        public string Projects()
+        public IActionResult Projects()
         {
-            return "These are my projects";
+            return View();
         }
 
         [Route("contact")]
 
-        public string Contact()
+        public IActionResult Contact()
         {
-            return "This is my contact info!";
+            return View();
         }
     }
 }

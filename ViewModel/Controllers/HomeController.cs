@@ -59,12 +59,6 @@ namespace ViewModel.Controllers
             };
 
             UserList AllUsers = new UserList(Names);
-            foreach(User user in Names)
-            {
-                Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~");
-                Console.WriteLine(user.FirstName+" "+ user.LastName);
-                Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~");
-            }
             return View(AllUsers);
         }
         public IActionResult AUser()

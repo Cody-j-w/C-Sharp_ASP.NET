@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
@@ -11,19 +11,22 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="jumbotron col-4">
-                <form action="Submit" method="post">
+                @model Survey
+                <form asp-action="Results" asp-controller="Survey" method="post">
                     <p class="lead text-info">Name:</p>
-                    <input type="text" class="form-control" name="Name">
+                    <input type="text" class="form-control" asp-for="Name">
+                    <span asp-validation-for="Name"></span>
                     <p class="lead text-info">Favorite Language:</p>
-                    <select name="Language" class="form-control">
+                    <select asp-for="Language" class="form-control">
                         <option value="Python">Python</option>
                         <option value="JavaScript">JavaScript</option>
                         <option value="C#">C#</option>
                         <option value="Assembly">Assembly</option>
                         <option value="Lua">Lua</option>
                     </select>
+                    <span asp-validation-for="Language"></span>
                     <p class="lead text-info">Location</p>
-                    <select name="Location" class="form-control">
+                    <select asp-for="Location" class="form-control">
                         <option value="Tulsa">Tulsa</option>
                         <option value="Dallas">Dallas</option>
                         <option value="DC">DC</option>
@@ -31,8 +34,10 @@
                         <option value="San Jose">San Jose</option>
                         <option value="New York">New York</option>
                     </select>
+                    <span asp-validation-for="Location"></span>
                     <p class="lead text-info">Leave a comment!</p>
-                    <textarea class="form-control" name="Comment"></textarea>
+                    <textarea class="form-control" asp-for="Comment"></textarea>
+                    <span asp-validation-for="Comment"></span>
                     <input type="submit" value="Submit" class="btn btn-info text-light">
                 </form>
             </div>

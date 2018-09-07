@@ -13,27 +13,29 @@ namespace DojoSurvey.Controllers
         [Route("")]
         public IActionResult Index()
         {
-            return View();
+            return View("Index");
         }
 
         
-        [HttpPost("Submit")]
-        public IActionResult SubmitData(Survey entry)
+        [HttpPost("Results")]
+        public IActionResult Results(Survey entry)
         {
-            SurveyController.survey = entry;
-            return RedirectToAction("Results");
-        }
-
-        [HttpGet]
-        [Route("Results")]
-        public IActionResult Results()
-        {
-           Survey survey = SurveyController.survey;
-           Console.WriteLine("####################");
-           Console.WriteLine(survey.Name);
-           Console.WriteLine("####################");
-            return View(survey);
             
+            Console.WriteLine("##################");
+            Console.WriteLine("Making it to the Results action!");
+            Console.WriteLine(entry.Name);
+            Console.WriteLine(entry.Language);
+            Console.WriteLine("##################");
+            if(ModelState.IsValid)
+            {
+            
+                return View("Results", entry);
+            }
+            else
+            {
+
+                return View("Index");
+            }
         }
 
         

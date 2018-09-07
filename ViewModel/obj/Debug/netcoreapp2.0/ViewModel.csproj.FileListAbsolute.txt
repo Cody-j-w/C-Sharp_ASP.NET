@@ -1,0 +1,11 @@
+C:\Users\Cody James\Documents\C#\ASP.NET\ViewModel\bin\Debug\netcoreapp2.0\ViewModel.deps.json
+C:\Users\Cody James\Documents\C#\ASP.NET\ViewModel\bin\Debug\netcoreapp2.0\ViewModel.runtimeconfig.json
+C:\Users\Cody James\Documents\C#\ASP.NET\ViewModel\bin\Debug\netcoreapp2.0\ViewModel.runtimeconfig.dev.json
+C:\Users\Cody James\Documents\C#\ASP.NET\ViewModel\bin\Debug\netcoreapp2.0\ViewModel.dll
+C:\Users\Cody James\Documents\C#\ASP.NET\ViewModel\bin\Debug\netcoreapp2.0\ViewModel.pdb
+C:\Users\Cody James\Documents\C#\ASP.NET\ViewModel\obj\Debug\netcoreapp2.0\ViewModel.csprojResolveAssemblyReference.cache
+C:\Users\Cody James\Documents\C#\ASP.NET\ViewModel\obj\Debug\netcoreapp2.0\ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\Cody James\Documents\C#\ASP.NET\ViewModel\obj\Debug\netcoreapp2.0\ViewModel.AssemblyInfoInputs.cache
+C:\Users\Cody James\Documents\C#\ASP.NET\ViewModel\obj\Debug\netcoreapp2.0\ViewModel.AssemblyInfo.cs
+C:\Users\Cody James\Documents\C#\ASP.NET\ViewModel\obj\Debug\netcoreapp2.0\ViewModel.dll
+C:\Users\Cody James\Documents\C#\ASP.NET\ViewModel\obj\Debug\netcoreapp2.0\ViewModel.pdb

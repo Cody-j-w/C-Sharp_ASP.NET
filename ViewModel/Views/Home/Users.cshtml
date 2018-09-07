@@ -1,0 +1,7 @@
+﻿@using ViewModel.Models
+@model UserList
+
+@foreach(User user in Model)
+{
+    <h1>@user.FirstName @user.LastName</h1>
+}

@@ -1,0 +1,11 @@
+C:\Users\Cody James\Documents\C#\ASP.NET\TimeDisplay\bin\Debug\netcoreapp2.0\TimeDisplay.deps.json
+C:\Users\Cody James\Documents\C#\ASP.NET\TimeDisplay\bin\Debug\netcoreapp2.0\TimeDisplay.runtimeconfig.json
+C:\Users\Cody James\Documents\C#\ASP.NET\TimeDisplay\bin\Debug\netcoreapp2.0\TimeDisplay.runtimeconfig.dev.json
+C:\Users\Cody James\Documents\C#\ASP.NET\TimeDisplay\bin\Debug\netcoreapp2.0\TimeDisplay.dll
+C:\Users\Cody James\Documents\C#\ASP.NET\TimeDisplay\bin\Debug\netcoreapp2.0\TimeDisplay.pdb
+C:\Users\Cody James\Documents\C#\ASP.NET\TimeDisplay\obj\Debug\netcoreapp2.0\TimeDisplay.csprojResolveAssemblyReference.cache
+C:\Users\Cody James\Documents\C#\ASP.NET\TimeDisplay\obj\Debug\netcoreapp2.0\TimeDisplay.csproj.CoreCompileInputs.cache
+C:\Users\Cody James\Documents\C#\ASP.NET\TimeDisplay\obj\Debug\netcoreapp2.0\TimeDisplay.AssemblyInfoInputs.cache
+C:\Users\Cody James\Documents\C#\ASP.NET\TimeDisplay\obj\Debug\netcoreapp2.0\TimeDisplay.AssemblyInfo.cs
+C:\Users\Cody James\Documents\C#\ASP.NET\TimeDisplay\obj\Debug\netcoreapp2.0\TimeDisplay.dll
+C:\Users\Cody James\Documents\C#\ASP.NET\TimeDisplay\obj\Debug\netcoreapp2.0\TimeDisplay.pdb

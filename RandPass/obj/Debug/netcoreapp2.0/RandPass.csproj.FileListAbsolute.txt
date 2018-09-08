@@ -1,0 +1,11 @@
+C:\Users\Cody James\Documents\C#\ASP.NET\RandPass\bin\Debug\netcoreapp2.0\RandPass.deps.json
+C:\Users\Cody James\Documents\C#\ASP.NET\RandPass\bin\Debug\netcoreapp2.0\RandPass.runtimeconfig.json
+C:\Users\Cody James\Documents\C#\ASP.NET\RandPass\bin\Debug\netcoreapp2.0\RandPass.runtimeconfig.dev.json
+C:\Users\Cody James\Documents\C#\ASP.NET\RandPass\bin\Debug\netcoreapp2.0\RandPass.dll
+C:\Users\Cody James\Documents\C#\ASP.NET\RandPass\bin\Debug\netcoreapp2.0\RandPass.pdb
+C:\Users\Cody James\Documents\C#\ASP.NET\RandPass\obj\Debug\netcoreapp2.0\RandPass.csprojResolveAssemblyReference.cache
+C:\Users\Cody James\Documents\C#\ASP.NET\RandPass\obj\Debug\netcoreapp2.0\RandPass.csproj.CoreCompileInputs.cache
+C:\Users\Cody James\Documents\C#\ASP.NET\RandPass\obj\Debug\netcoreapp2.0\RandPass.AssemblyInfoInputs.cache
+C:\Users\Cody James\Documents\C#\ASP.NET\RandPass\obj\Debug\netcoreapp2.0\RandPass.AssemblyInfo.cs
+C:\Users\Cody James\Documents\C#\ASP.NET\RandPass\obj\Debug\netcoreapp2.0\RandPass.dll
+C:\Users\Cody James\Documents\C#\ASP.NET\RandPass\obj\Debug\netcoreapp2.0\RandPass.pdb

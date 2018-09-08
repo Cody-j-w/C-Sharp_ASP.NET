@@ -1,0 +1,12 @@
+﻿
+@model Counter
+<hr class="my-5">
+<h1 class="text-info">Passcode #:@Model.Count</h1>
+
+<div class="jumbotron">
+    <h1>@Model.String</h1>
+</div>
+
+<form asp-action="Randomize" asp-controller="Home" method="POST">
+    <input type="submit" class="btn btn-info" value="Randomize!">
+</form>

@@ -1,0 +1,11 @@
+C:\Users\Cody James\Documents\C#\ASP.NET\FormSubmission\bin\Debug\netcoreapp2.0\FormSubmission.deps.json
+C:\Users\Cody James\Documents\C#\ASP.NET\FormSubmission\bin\Debug\netcoreapp2.0\FormSubmission.runtimeconfig.json
+C:\Users\Cody James\Documents\C#\ASP.NET\FormSubmission\bin\Debug\netcoreapp2.0\FormSubmission.runtimeconfig.dev.json
+C:\Users\Cody James\Documents\C#\ASP.NET\FormSubmission\bin\Debug\netcoreapp2.0\FormSubmission.dll
+C:\Users\Cody James\Documents\C#\ASP.NET\FormSubmission\bin\Debug\netcoreapp2.0\FormSubmission.pdb
+C:\Users\Cody James\Documents\C#\ASP.NET\FormSubmission\obj\Debug\netcoreapp2.0\FormSubmission.csprojResolveAssemblyReference.cache
+C:\Users\Cody James\Documents\C#\ASP.NET\FormSubmission\obj\Debug\netcoreapp2.0\FormSubmission.csproj.CoreCompileInputs.cache
+C:\Users\Cody James\Documents\C#\ASP.NET\FormSubmission\obj\Debug\netcoreapp2.0\FormSubmission.AssemblyInfoInputs.cache
+C:\Users\Cody James\Documents\C#\ASP.NET\FormSubmission\obj\Debug\netcoreapp2.0\FormSubmission.AssemblyInfo.cs
+C:\Users\Cody James\Documents\C#\ASP.NET\FormSubmission\obj\Debug\netcoreapp2.0\FormSubmission.dll
+C:\Users\Cody James\Documents\C#\ASP.NET\FormSubmission\obj\Debug\netcoreapp2.0\FormSubmission.pdb

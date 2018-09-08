@@ -1,0 +1,20 @@
+﻿@model User
+<form asp-action="Submit" asp-controller="Home" method="POST">
+    <hr class="info my-3">
+    <span asp-validation-for="FirstName"></span>
+    First Name: <input class="form-control" type="text" asp-for="FirstName">
+    <hr class="info my-3">
+    <span asp-validation-for="LastName"></span>
+    Last Name: <input class="form-control" type="text" asp-for="LastName">
+    <hr class="info my-3">
+    <span asp-validation-for="Age"></span>
+    Age: <input class="form-control" type="number" asp-for="Age">
+    <hr class="info my-3">
+    <span asp-validation-for="Email"></span>
+    Email: <input class="form-control" type="text " asp-for="Email">
+    <hr class="info my-3">
+    <span asp-validation-for="Password"></span>
+    Password: <input class="form-control" type="password" asp-for="Password">
+    <hr class="info my-3">
+    <input type="submit" value="Submit" class="form-control btn btn-info btn-lg">
+</form>

@@ -1,24 +1,23 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Http;
+
 using DojoSurvey.Models;
 using System;
 
 namespace DojoSurvey.Controllers
 {
     public class SurveyController : Controller
-    {
-        public static Survey survey;
-
-        [HttpGet]
-        [Route("")]
+    {   
+        [HttpGet("")]
         public IActionResult Index()
         {
-            return View("Index");
+            return View();
         }
 
         
-        [HttpPost("Results")]
-        public IActionResult Results(Survey entry)
+
+        
+        [HttpPost("Submit")]
+        public IActionResult Submit(Survey entry)
         {
             
             Console.WriteLine("##################");
@@ -34,7 +33,7 @@ namespace DojoSurvey.Controllers
             else
             {
 
-                return View("Index");
+                return View("Index", entry);
             }
         }
 

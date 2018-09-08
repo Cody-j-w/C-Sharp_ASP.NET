@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta Content-Type= "text/html;" charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
@@ -12,7 +12,7 @@
         <div class="row justify-content-center">
             <div class="jumbotron col-4">
                 @model Survey
-                <form asp-action="Results" asp-controller="Survey" method="post">
+                <form asp-action="Submit" asp-controller="Survey" method="POST">
                     <p class="lead text-info">Name:</p>
                     <input type="text" class="form-control" asp-for="Name">
                     <span asp-validation-for="Name"></span>
@@ -40,6 +40,8 @@
                     <span asp-validation-for="Comment"></span>
                     <input type="submit" value="Submit" class="btn btn-info text-light">
                 </form>
+
+                    <a href="testpage"><button class="btn btn-info">Test</button></a>
             </div>
         </div>
     </div>

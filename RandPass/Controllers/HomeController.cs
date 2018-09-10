@@ -35,9 +35,7 @@ namespace RandPass.Controllers
 
             HttpContext.Session.SetString("RandomString", RandomString);
 
-            Console.WriteLine("#%#%#%#%#%#%#%#%#%#%");
-            Console.WriteLine(RandomString);
-            Console.WriteLine("#%#%#%#%#%#%#%#%#%#%");
+           
            HttpContext.Session.SetInt32("Counter", (int)Count);
 
                 Counter random = new Counter();

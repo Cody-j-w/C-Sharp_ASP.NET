@@ -1,0 +1,10 @@
+﻿@model Quote
+
+<table class="table table-dark table-bordered">
+    @foreach(var quote in ViewBag.AllQuotes){
+    <tr>
+        <td><h4 class="text-info lead">'@quote["Message"]'</h4>
+            <p>-@quote["User"]</p></td>
+    </tr>
+    }
+</table>

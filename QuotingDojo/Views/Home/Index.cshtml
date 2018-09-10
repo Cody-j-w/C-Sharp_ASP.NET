@@ -1,0 +1,14 @@
+﻿@model Quote
+<h1 class="text-dark text-center display-3">Quoting Dojo!</h1>
+<form asp-action="Submit" asp-controller="Home" method='POST'>
+    <hr class="bg-dark my-3">
+    <span asp-validation-for="User"></span>
+    <span class="text-dark"> Name:</span><input type="text" asp-for="User" class="form-control col-5"> 
+    <hr class="bg-dark my-3">
+    <span asp-validation-for="Message"></span>
+   <span class="text-dark"> Your Quote:</span><input type="text" asp-for="Message" class="form-control col-5">
+   <hr class="bg-dark my-3">
+    <input type="submit" class="btn btn-dark text-info" value="Submit">
+    <hr class="bg-dark my-3">
+</form>
+<a href="Quotes"><button class="btn btn-dark text-info">Just take me to the quotes! </button></a>

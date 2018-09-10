@@ -1,0 +1,44 @@
+﻿@model Dojodachi
+<div class="row">
+    <div class="col-3">
+        <p class="lead text-center text-info">Fullness: @Model.Fullness</p>
+    </div>
+    <div class="col-3">
+        <p class="lead text-center text-info">Happiness: @Model.Happiness</p>
+    </div>
+    <div class="col-3">
+        <p class="lead text-center text-info">Meals: @Model.Meals</p>
+    </div>
+    <div class="col-3">
+        <p class="lead text-center text-info">Energy: @Model.Energy</p>
+    </div>
+</div>
+<div class="row justify-content-center">
+    <div class="jumbotron bg-dark justify-content-center col-8">
+       
+        <img class="mx-auto" src="images/Jellyfish.jpg" alt="it's name is Squishy!">
+        <p class="text-info lead text-center">@Model.Message</p>
+        
+    </div>
+</div>
+@{if(Model.Happiness == 0 && Model.Fullness == 0){
+
+    <div class="row">
+        <a class="col-4" href="Home/Reset"><button class="col-12 btn btn-primary text-light mx-auto">Restart</button></a>
+    </div>
+}
+else if(Model.Happiness >= 100 && Model.Fullness >= 100 && Model.Energy >= 100){
+    <div class="row justify-content-center">
+        <a class="col-4" href="Home/Reset"><button class="col-12 btn btn-success text-light mx-auto">Try raising another!</button></a>
+    </div>
+}
+else{
+    <div class="row">
+
+    <a class="col-3" href="Home/Feed"><button class="col-12 btn btn-info text-dark">Feed</button></a>
+    <a class="col-3" href="Home/Play"><button class="col-12 btn btn-info text-dark">Play</button></a>
+    <a class="col-3" href="Home/Work"><button class="col-12 btn btn-info text-dark">Work</button></a>
+    <a class="col-3" href="Home/Sleep"><button class="col-12 btn btn-info text-dark">Sleep</button></a>
+</div>
+}
+}

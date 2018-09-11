@@ -1,0 +1,21 @@
+@model Trail
+
+<form asp-action="Submit" asp-controller="Home" method="POST">
+    <p class="text-info lead">Trail Name:</p><input class="form-control col-4" type="text" asp-for="Name">
+    <span asp-validation-for="Name" class="text-danger"></span>
+    <hr class="bg-light my-3">
+    <p class="text-info lead">Trail Length:</p><input class="form-control col-4" type="text" asp-for="Length">
+    <span asp-validation-for="Length" class="text-danger"></span>
+    <hr class="bg-light my-3">
+    <p class="text-info lead">Trail Elevation Change:</p><input class="form-control col-4" type="text" asp-for="Elevation">
+    <span asp-validation-for="Elevation" class="text-danger"></span>
+    <hr class="bg-light my-3">
+    <p class="text-info lead">Longitude - Latitude:</p> <input class="form-control col-4 d-inline-block" type="text" asp-for="Longitude"> <p class="text-info lead d-inline-block">-</p> <input class="form-control col-4 d-inline-block" type="text" asp-for="Latitude">
+    <p><span asp-validation-for="Longitude" class="text-danger"></span> - <span asp-validation-for="Latitude" class="text-danger"></span></p>
+    <hr class="bg-light my-3">
+    <p class="text-info lead">Trail Description:</p><input class="form-control" type="text" asp-for="Desc">
+    <span asp-validation-for="Desc" class="text-danger"></span>
+    <hr class="bg-light my-3">
+    <input type="submit" class="btn btn-light text-dark" value="Submit!">
+   
+</form>

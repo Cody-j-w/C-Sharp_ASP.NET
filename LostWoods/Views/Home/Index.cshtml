@@ -1,0 +1,23 @@
+﻿@model Trail
+
+<table class="table table-light text-dark table-bordered">
+    
+        <thead>
+            <tr>
+                <th>Trail Name</th>
+                <th>Trail Length</th>
+                <th>Elevation Change</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach(var trail in @Model){
+        <tr>
+            <td>@trail.Name</td>
+            <td>@trail.Length</td>
+            <td>@trail.Elevation</td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<a href="NewTrail"><button class="btn btn-info text-dark">Add a new trail!</button></a>

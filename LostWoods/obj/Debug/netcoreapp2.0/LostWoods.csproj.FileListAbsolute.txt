@@ -1,0 +1,10 @@
+C:\Users\Cody James\Documents\C#\ASP.NET\LostWoods\obj\Debug\netcoreapp2.0\LostWoods.csproj.CoreCompileInputs.cache
+C:\Users\Cody James\Documents\C#\ASP.NET\LostWoods\obj\Debug\netcoreapp2.0\LostWoods.AssemblyInfoInputs.cache
+C:\Users\Cody James\Documents\C#\ASP.NET\LostWoods\obj\Debug\netcoreapp2.0\LostWoods.AssemblyInfo.cs
+C:\Users\Cody James\Documents\C#\ASP.NET\LostWoods\bin\Debug\netcoreapp2.0\LostWoods.deps.json
+C:\Users\Cody James\Documents\C#\ASP.NET\LostWoods\bin\Debug\netcoreapp2.0\LostWoods.runtimeconfig.json
+C:\Users\Cody James\Documents\C#\ASP.NET\LostWoods\bin\Debug\netcoreapp2.0\LostWoods.runtimeconfig.dev.json
+C:\Users\Cody James\Documents\C#\ASP.NET\LostWoods\bin\Debug\netcoreapp2.0\LostWoods.dll
+C:\Users\Cody James\Documents\C#\ASP.NET\LostWoods\bin\Debug\netcoreapp2.0\LostWoods.pdb
+C:\Users\Cody James\Documents\C#\ASP.NET\LostWoods\obj\Debug\netcoreapp2.0\LostWoods.dll
+C:\Users\Cody James\Documents\C#\ASP.NET\LostWoods\obj\Debug\netcoreapp2.0\LostWoods.pdb

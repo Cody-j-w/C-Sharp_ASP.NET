@@ -1,0 +1,21 @@
+@model Trail
+<div class="row">
+    <h1 class="text-info">@Model.Name</h1>
+</div>
+<div class="row">
+    <div class="col-6">
+    <h4 class="text-info">Trail Description:</h4>
+    <p class="text-info">@Model.Desc</p>
+    <hr class="bg-info my-3">
+    <h4 class="text-info">Trail Length:</h4>
+    <h5 class="text-info">@Model.Length</h5>
+    
+    <hr class="bg-info my-3">
+    <h4 class="text-info">Elevation Change:</h4>
+    <h4 class="text-info">@Model.Elevation</h4>
+    <hr class="bg-info my-3">
+    <h4 class="text-info"> Longitude - @Model.Longitude</h4>
+    <h4 class="text-info"> Latitude - @Model.Latitude</h4>
+    </div>
+    <div class="col-6" id="map"></div>
+</div>

@@ -27,8 +27,11 @@ namespace LostWoods.Controllers
 
             IEnumerable<Trail> AllTrails = _trailFactory.FindAll();
 
-            
-            
+            foreach(Trail trail in AllTrails)
+            {
+                Console.WriteLine(trail.Name);
+            }
+            ViewBag.AllTrails = AllTrails;
             return View(AllTrails);
         }
 
@@ -59,7 +62,7 @@ namespace LostWoods.Controllers
         {
             Trail ThisTrail = _trailFactory.FindOne(id);
 
-            return View();
+            return View("Trail", ThisTrail);
         }
 
         public IActionResult Error()

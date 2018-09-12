@@ -6,6 +6,10 @@ namespace LostWoods.Models
 {
     public class Trail
     {
+        [Key]
+        public long id {get; set;}
+
+
         [Required (ErrorMessage = "Please provide the Trail Name")]
         [MinLength(3, ErrorMessage = "Trail Name must be at least three characters long!")]
         [MaxLength(32, ErrorMessage = "Trail Name cannot be more than 32 characters!")]
@@ -16,9 +20,11 @@ namespace LostWoods.Models
         public string Desc{get; set;}
 
         [Required (ErrorMessage = "Please provide the trail length")]
+        [RegularExpression (@"^\d*\.?\d*$", ErrorMessage="Please a valid length!")]
         public decimal? Length{get; set;}
 
         [Required (ErrorMessage = "Please provide the trail elevation change")]
+        [RegularExpression (@"^[-+]?\d+$", ErrorMessage="Please provide the elevation change of the route!")]
         public int? Elevation{get; set;}
 
         [Required (ErrorMessage = "Please provide Longitudinal coordinates")]
@@ -28,66 +34,75 @@ namespace LostWoods.Models
         [Required (ErrorMessage = "Please provide Latitudinal coordinates")]
         [RegularExpression (@"^[-+]?([1-8]?\d(\.\d+)?|90(\.0+)?)$", ErrorMessage = "Please provide valid latitudinal coordinates")]
         public double? Latitude{get; set;}
-    }
+        
+        public DateTime Created_at{get; set;}
+        public DateTime Updated_at{get; set;}
 
-    public class TrailList : IEnumerable
-    {
-        private Trail[] _trails;
-        public TrailList(Trail[] tArray)
+        public Trail()
         {
-            _trails = new Trail[tArray.Length];
-
-            for(int i = 0; i<tArray.Length; i++)
-            {
-                _trails[i] = tArray[i];
-            }
+            Created_at = DateTime.Now;
+            Updated_at = DateTime.Now;
         }
 
-        IEnumerator IEnumerable.GetEnumerator()
-        {
-            return (IEnumerator) GetEnumerator();
-        }
+    // public class TrailList : IEnumerable
+    // {
+    //     private Trail[] _trails;
+    //     public TrailList(Trail[] tArray)
+    //     {
+    //         _trails = new Trail[tArray.Length];
 
-        public TrailListEnum GetEnumerator()
-        {
-            return new TrailListEnum(_trails);
-        }
-    }
+    //         for(int i = 0; i<tArray.Length; i++)
+    //         {
+    //             _trails[i] = tArray[i];
+    //         }
+    //     }
 
-    public class TrailListEnum : IEnumerator
-    {
-        public Trail[] _trails;
+    //     IEnumerator IEnumerable.GetEnumerator()
+    //     {
+    //         return (IEnumerator) GetEnumerator();
+    //     }
 
-        int position = -1;
+    //     public TrailListEnum GetEnumerator()
+    //     {
+    //         return new TrailListEnum(_trails);
+    //     }
+    // }
 
-        public TrailListEnum(Trail[] list)
-        {
-            _trails = list;
-        }
+    // public class TrailListEnum : IEnumerator
+    // {
+    //     public Trail[] _trails;
 
-        public bool MoveNext()
-        {
-            position++;
-            return (position < _trails.Length);
-        }
+    //     int position = -1;
 
-        public void Reset()
-        {
-            position = -1;
-        }
+    //     public TrailListEnum(Trail[] list)
+    //     {
+    //         _trails = list;
+    //     }
 
-        object IEnumerator.Current{
-            get
-            {
-                try
-                {
-                    return _trails[position];
-                }
-                catch(IndexOutOfRangeException)
-                {
-                    throw new InvalidOperationException();
-                }
-            }
-        }
+    //     public bool MoveNext()
+    //     {
+    //         position++;
+    //         return (position < _trails.Length);
+    //     }
+
+    //     public void Reset()
+    //     {
+    //         position = -1;
+    //     }
+
+    //     object IEnumerator.Current{
+    //         get
+    //         {
+    //             try
+    //             {
+    //                 return _trails[position];
+    //             }
+    //             catch(IndexOutOfRangeException)
+    //             {
+    //                 throw new InvalidOperationException();
+    //             }
+    //         }
+    //     }
+    //     }
     }
 }

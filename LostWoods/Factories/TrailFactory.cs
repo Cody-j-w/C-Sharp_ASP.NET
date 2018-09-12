@@ -26,7 +26,7 @@ namespace LostWoods.Factory
         {
             using (IDbConnection dbConnection = Connection)
             {
-                string query = "INSERT INTO trails(Name, Desc, Length, Elevation, Longitude, Latitude, created_at, updated_at) VALUES (@Name, @Desc, @Length, @Elevation, @Longitude, @Latitude, NOW(), NOW())";
+                string query = "INSERT INTO trails(Name, Description, Length, Elevation, Longitude, Latitude, created_at, updated_at) VALUES (@Name, @Desc, @Length, @Elevation, @Longitude, @Latitude, @Created_at, @Updated_at";
                 dbConnection.Open();
                 dbConnection.Execute(query, trail);
             }
@@ -44,7 +44,7 @@ namespace LostWoods.Factory
             using (IDbConnection dbConnection = Connection)
             {
                 dbConnection.Open();
-                return dbConnection.Query<Trail>("SELECT * FROM trails WHERE id = @id").FirstOrDefault();
+                return dbConnection.Query<Trail>("SELECT * FROM trails WHERE id = @id", new {id = id}).FirstOrDefault();
             }
         }
     }

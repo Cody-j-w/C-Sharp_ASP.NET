@@ -1,4 +1,4 @@
-﻿@model Trail
+﻿
 
 <table class="table table-light text-dark table-bordered">
     
@@ -10,9 +10,9 @@
             </tr>
         </thead>
         <tbody>
-        @foreach(var trail in @Model){
+        @foreach(Trail trail in ViewBag.AllTrails){
         <tr>
-            <td>@trail.Name</td>
+            <td><a href="trails/@trail.id">@trail.Name</a></td>
             <td>@trail.Length</td>
             <td>@trail.Elevation</td>
         </tr>
